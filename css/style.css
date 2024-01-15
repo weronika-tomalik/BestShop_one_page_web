@@ -104,15 +104,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 531px;
 }
 
 .statistics__content {
-    margin-top: 100px;
     margin-bottom: 100px;
     font-family: var(--first-font-family);
     font-size: 36px;
     color: #000000;
-    
+    margin-bottom: 100px;
+
 }
 
 .statistics__columns {
@@ -141,6 +142,7 @@
     border-radius: 50%;
     width: 62px;
     height: 62px;
+    margin: 0 auto;
 }
 
 .statistic__picture--red {
@@ -162,6 +164,7 @@
     font-weight: 700;
     position: relative;
     top: 80px;
+    text-align: center;
 }
 
 .statistic__info p {
@@ -172,4 +175,25 @@
     margin-top: 19px;
     position: relative;
     top: 80px;
+    text-align: center;
+}
+
+.benefits .container {
+    width: 100vw;
+    background-color: #F7F7F7;
+}
+
+.benefit__box {
+    width: 1124px;
+    height: 370px;
+    /*margin-top: 106px;*/
+    background-color: #FFFFFF;
+}
+
+.benefits__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 106px;
 }
