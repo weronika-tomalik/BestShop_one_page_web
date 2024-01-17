@@ -16,96 +16,123 @@
 </head>
 <body>
 <header class="nav">
-    <div class="container">
-        <div class="nav__logo">BestShop</div>
-        <div class="nav__nav">
-            <nav>
+    <div class="nav__container container">
+        <a href="#" class="nav__logo">BestShop</a>
+<!--        <div class="nav__nav">-->
+        <nav>
                 <ul class="nav__menu">
-                    <li>why us</li>
-                    <li>benefits</li>
-                    <li>prices</li>
-                    <li>contact</li>
+                    <li class="nav__element">
+                        <a href="#why us" class="nav__link">why us</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#benefits" class="nav__link">benefits</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#prices" class="nav__link">prices</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#contact" class="nav__link">contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </div>
+        </nav>
     </div>
 </header>
+<!--<header class="header">-->
+<!--    <div class="header__container container">-->
+<!--        <a href="#" class="logo">BestShop</a>-->
+<!--        <nav>-->
+<!--            <ul class="header__nav">-->
+<!--                <li class="nav__element">-->
+<!--                    <a href="#why-us" class="nav__link">Why us</a>-->
+<!--                </li>-->
+<!--                <li class="nav__element">-->
+<!--                    <a href="#benefits" class="nav__link">Benefits</a>-->
+<!--                </li>-->
+<!--                <li class="nav__element">--
+<!--                    <a href="#prices" class="nav__link">Prices</a>-->
+<!--                </li>-->
+<!--                <li class="nav__element">-->
+<!--                    <a href="#contact" class="nav__link">Contact</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 <section class="opening">
-    <div class="container">
+<!--    <div class="container" DLACZEGO TUTAJ NIE JEST POTRZEBNY?>-->
         <div class="opening__content">
-            <h1>Sell More!</h1>
-            <p>Open shop on our platform and increase your sales</p>
-            <button>Open your shop</button>
-            <img src="Zasoby_do_projektu/assets/Background.png">
+            <h1 class="opening__header">Sell More!</h1>
+            <p class="opening__heading">Open shop on our platform and increase your sales</p>
+            <a href="#">Open your shop</a>
         </div>
-    </div>
+        <img src="Zasoby_do_projektu/assets/Background.png" class="opening__image">
+<!--    </div>-->
 </section>
 <section class="statistics">
     <div class="container">
-        <div class="statistics__content">
-            <h2>The most popular sales platform in country</h2>
-        </div>
-        <div class="statistics__columns">
+        <h2>The most popular sales platform in country</h2>
+        <div class="statistics__container">
+
             <div class="statistics__column">
                 <div class="statistic__picture">
-                    <img src="Zasoby_do_projektu/assets/Person.svg">
-                    <div class="statistic__picture--red"></div>
+                    <img src="Zasoby_do_projektu/assets/Person.svg" class="statistic__img">
                 </div>
-                <div class="statistic__info">
-                    <h3>100000+</h3>
-                    <p>daily entries</p>
+                <div class="statistic__number">100000+</div>
+                <div class="statistic__description">daily entries</div>
                 </div>
-            </div>
+
             <div class="statistics__column">
                 <div class="statistic__picture">
-                    <img src="Zasoby_do_projektu/assets/Eye.svg">
-                    <div class="statistic__picture--blue"></div>
+                    <img src="Zasoby_do_projektu/assets/Eye.svg" class="statistic__img">
                 </div>
-                <div class="statistic__info">
-                    <h3>2000000+</h3>
-                    <p>seen products every day</p>
-                </div>
+                <div class="statistic__number">2000000+</div>
+                <div class="statistic__description">seen products <br> every day</div>
             </div>
+
             <div class="statistics__column">
                 <div class="statistic__picture">
-                    <img src="Zasoby_do_projektu/assets/Catalog.svg">
-                    <div class="statistic__picture--green"></div>
+                    <img src="Zasoby_do_projektu/assets/Catalog.svg" class="statistic__img">
                 </div>
-                <div class="statistic__info">
-                    <h3>10000+</h3>
-                    <p>added posts daily</p>
-                </div>
+                <div class="statistic__number">10000+</div>
+                <div class="statistic__description">added posts <br> daily</div>
             </div>
+
         </div>
     </div>
 </section>
 <section class="benefits">
-    <div class="container">
-        <div class="benefits__content">
-            <div class="benefit__box">
-                <div class="benefit__box--info">
-                    <h4>Be always first</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <div class="benefits__container container">
+            <div class="benefit__box benefit__box--notebook">
+                <div class="benefit__text">
+                    <h2 class="benefit__title">Be always first</h2>
+                    <p class="benefit__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <img src="Zasoby_do_projektu/assets/iPhone.png">
-            </div>
-            <div class="benefit__box">
-                <div class="benefit__box--info">
-                    <h4>Your shop is where you are!</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="benefit__img">
+                    <div class="benefit__img--redish"></div>
+                    <img src="Zasoby_do_projektu/assets/Macbook.png"/>
                 </div>
-                <img src="Zasoby_do_projektu/assets/Macbook.png">
             </div>
-            <div class="benefit__box">
-                <div class="benefit__box--info">
-                    <h4>Increase recognition your brand!</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="benefit__box benefit__box--phone">
+                <div class="benefit__text">
+                    <h2 class="benefit__title">Your shop is <br> where you are!</h2>
+                    <p class="benefit__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <img src="Zasoby_do_projektu/assets/Trumpet.png">
+                <div class="benefit__img">
+                    <img src="Zasoby_do_projektu/assets/iPhone.png"/>
+                </div>
             </div>
+            <div class="benefit__boxes">
+                <div class="benefit__box benefit__box--one">
+                    <div class="benefit__text">
+                        <h2 class="benefit__title">Increase recognition <br> your brand!</h2>
+                        <p class="benefit__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+                <div class="benefit__box benefit__box--image">
+                    <img src="Zasoby_do_projektu/assets/Trumpet.png">
+                </div>
         </div>
     </div>
-
 </section>
 </body>
 </html>
