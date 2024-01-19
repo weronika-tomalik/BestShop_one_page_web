@@ -527,3 +527,189 @@ h2 {
     /*background-image: url("Zasoby_do_projektu/assets/Close.svg");*/
     background-color: black;
 }
+
+.contact__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact__column {
+    text-align: left;
+}
+
+.contact__title {
+    font-family: var(--first-font-family);
+    font-size: 49px;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.contact__text {
+    font-family: var(--second-font-family);
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.contact__details a {
+    font-family: var(--second-font-family);
+    color: #A5A5A5;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.contact__details img {
+    margin-right: 10px;
+    height: 27px;
+    width: 27px;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__input name {
+    text-align: left;
+}
+
+.form__input email {
+    text-align: left;
+}
+
+.consent__text {
+    text-align: justify;
+    height: 108px;
+    width: 405px;
+}
+
+.form__consent {
+    margin-top: 30px;
+}
+
+.form__field {
+    color:#08A6E4;
+    font-family: var(--second-font-family);
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.form__field input {
+    border:none;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.form__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.form__checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form__checkbox .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #95989A;
+    border-radius: 4px;
+}
+
+.form__checkbox input:checked ~ .checkbox {
+    background-image: url(Zasoby_do_projektu/assets/Checkmark.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.consent__text {
+    color: #707070;
+    font-family: var(--second-font-family);
+    font-size: 12px;
+}
+
+button {
+    border-radius: 35px;
+    background-color: #08A6E4;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: var(--second-font-family);
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 5px 10px 14px #07ACE629;
+    align-self: flex-end;
+    border: none;
+    color: #FFFFFF;
+}
+
+.footer__container {
+    width: 1352px;
+    box-shadow: 0 -5px 40px #00000029;
+    height: 89px;
+    display: flex;
+    margin-top: 59px;
+    background-color: #F7F7F7;
+
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.footer__logo {
+    color: var(--color-primary);
+    font-family: var(--first-font-family);
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+
+.footer__rights {
+    font-size: 11px;
+    font-family: var(--second-font-family);
+    font-weight: normal;
+    color: #A5A5A5;
+}
+
+.footer__icons {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 750px;
+}
+
+.footer__icon {
+    height: 24px;
+    width: 24px;
+}
+
+.footer__icon:first-of-type {
+    margin-right: 20px;
+}
