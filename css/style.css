@@ -357,27 +357,173 @@ h2 {
 .benefit__box--image img {
     width: 295px;
     height: 207px;
-
-
 }
-/*.benefits .container {*/
-/*    width: 100vw;*/
-/*    height: 1395px;*/
-/*    background-color: #F7F7F7;*/
-/*}*/
 
-/*.benefits__content {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    flex-direction: column;*/
-/*    row-gap: 106px;*/
-/*    margin-left: 10%;*/
-/*}*/
+.pricing__container {
+    height: 616px;
+    width: 100%;
+}
 
-/*.benefit__box {*/
-/*    width: 1124px;*/
-/*    height: 370px;*/
-/*    background-color: #FFFFFF;*/
-/*}*/
+.pricing__container h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: var(--first-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
 
+.pricing__boxes {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 59px;
+    height: 300px;
+}
+
+.pricing__box--basic {
+    margin-top: 113px;
+    text-align: center;
+    width: 332px;
+    height: 411px;
+    border: 1px solid #FB3B64;
+    border-radius: 14px;
+}
+
+.pricing__box--professional {
+    margin-top: 113px;
+    text-align: center;
+    width: 352px;
+    height: 441px;
+    border: 1px solid #07ACE6;
+    border-radius: 14px;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.pricing__box--premium {
+    margin-top: 113px;
+    text-align: center;
+    width: 332px;
+    height: 411px;
+    border: 1px solid #55DFB4;
+    border-radius: 14px;
+}
+
+.pricing__box--basic .pricing__type {
+    font-size: 20px;
+    font-family: var(--first-font-family);
+    font-weight: bold;
+    color: #13253B;
+    margin-top: 34px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.pricing__box--basic .pricing__price {
+    font-family: var(--second-font-family);
+    font-weight: 300;
+    font-size: 46px;
+    color: #FB3B64;
+    margin-bottom: 69px;
+}
+
+.pricing__box--premium .pricing__type {
+    font-size: 20px;
+    font-family: var(--first-font-family);
+    font-weight: bold;
+    color: #13253B;
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
+
+.pricing__box--premium .pricing__price {
+    font-family: var(--second-font-family);
+    font-weight: 300;
+    font-size: 46px;
+    color: #55DFB4;
+    margin-bottom: 5px;
+}
+
+.pricing__box--professional .pricing__type {
+    font-size: 21px;
+    font-family: var(--first-font-family);
+    font-weight: bold;
+    color: #13253B;
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
+
+.pricing__box--professional .pricing__price {
+    font-family: var(--second-font-family);
+    font-weight: 300;
+    font-size: 46px;
+    color: #07ACE6;
+    margin-bottom: 5px;
+}
+
+.pricing__limited {
+    font-size: 14px;
+    font-family: var(--first-font-family);
+    font-weight: bold;
+    margin-bottom: 61px;
+}
+
+.pricing__box a {
+    border-radius: 23px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 57px;
+    padding-left: 57px;
+    width: 150px;
+    color: #FFFFFF;
+    font-family: var(--second-font-family);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pricing__box--basic a {
+    background-color: #EB476E;
+}
+
+.pricing__box--professional a {
+    background-color: #07ACE6;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+
+.pricing__box--premium a {
+    background-color: #55DFB4;
+}
+
+.pricing__box--basic .pricing__lists {
+    margin-bottom: 55px;
+}
+
+.pricing__box--professional .pricing__lists {
+    margin-bottom: 71px;
+}
+
+.pricing__box--premium .pricing__lists {
+    margin-bottom: 45px;
+}
+
+.pricing__list {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pricing__list::before {
+    content: "";
+    /*background-image: url("Zasoby_do_projektu/assets/Ckechmark-1.svg"); NIE DZIALA, CHOC WYDAJE SIE, ZE ADRES GRAFIKI PRAWIDLOWO PODANY, A POZOSTALE PARAMETRY WYSWIETLAJA SIE PRAWIDLOWO, NP. GDY DODAM BACKGROUND-COLOR*/
+    background-color: #FB3B64;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pricing__list--not::before {
+    /*background-image: url("Zasoby_do_projektu/assets/Close.svg");*/
+    background-color: black;
+}
